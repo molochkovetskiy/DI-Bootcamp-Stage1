@@ -1,0 +1,39 @@
+div {
+    border: 3px solid black;
+}
+
+.heading {
+    background: green;
+    width: 98%;
+    height: 100px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+.col {
+    height: 300px;
+    width: 32%;
+    margin: 2px;
+    display: inline-block;
+}
+
+img {
+    width: 100%;
+    height: inherit;
+}
+
+.col-left {
+    background-color: orange;
+}
+
+.col-mid {
+    background-color: red;
+}
+
+.col-right {
+    background-color: blue;
+}

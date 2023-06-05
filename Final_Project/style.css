@@ -1,0 +1,93 @@
+body{
+    background-color:black;
+  }
+  
+  #title{
+    font-family: "Audiowide", sans-serif;
+    text-align: center;
+    color: aliceblue;
+    font-size: 50px;
+  }
+  
+  #image{
+    max-width: 100%;
+    height: 50%;
+  }
+  
+  #img-caption, #img-caption-bottom{
+    font-family: "Audiowide", sans-serif;
+    text-align: center;
+    color: aliceblue;
+    font-size: 60px;
+  }
+  
+  #img-caption-bottom{
+    font-size: 30px;
+  }
+  
+  #tribute-info{
+    font-family: "Audiowide", sans-serif;
+    color: aliceblue;
+    font-size: 20px;
+  }
+  
+  .paragraph{
+    padding: 3vh 3vw;
+    padding-bottom: 5vh;
+    font-family: 'Overpass', sans-serif;
+  }
+  
+  .quote{
+    background-color: aliceblue;
+    border-radius: 25px;
+    padding: 20px;
+    width: auto;
+    height: auto;
+  }
+  
+  blockquote, figcaption{
+    color: black;
+  }
+  
+  figcaption{
+    margin-left: 80%;
+  }
+  
+  #trophies{
+    display: flex;
+    font-family: "Audiowide", sans-serif;
+    color: black;
+    font-size: 20px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  
+  #trophies div {
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }
+  
+  #trophies div img {
+    height: 250px;
+    width: 250px;
+  }
+  
+  #trophies div p {
+    display: flex;
+    justify-content: center;
+  }
+  
+  #tribute-link{
+    text-align: center;
+    display: block;
+    color: lawngreen;
+    font-size: 20px; 
+  }
+  
+  #trophies div:hover {
+    transform: scale(1.1);
+    transition: 1s;
+  }
+  

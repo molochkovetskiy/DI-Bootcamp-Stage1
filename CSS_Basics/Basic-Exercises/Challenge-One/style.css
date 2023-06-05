@@ -1,0 +1,14 @@
+#wrap {
+    background-color: rgb(48, 207, 255);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul {
+    text-align: center;
+    list-style-type: none;
+}
+
+li::first-letter {
+    font-weight: bold;
+}
